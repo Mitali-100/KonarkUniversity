@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konark University</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+
+  <script type="text/javascript">
+    $(function () {
+      $('#mytab a').on('click', function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+      })
+    }
+    )
+  </script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+  <!--------------------------------------------- Navbar Start ---------------------------------------------------->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/konark-wheel_02.webp" alt="" class="logo"><span
+          class="logo-name"> Konark University </span></a>
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler "><i class="fa-solid fa-bars" style="color: #fafcff;font-size: 20px;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarScroll">
+        <ul class="navbar-nav ms-auto my-2 mx-4 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link  text-light " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="departments.html">Departments</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="blog.html" >Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="contact.html" >Contact</a>
+          </li>
+        </ul>
+
+         <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Search</button>
+        </form> 
+      </div>
+    </div>
+  </nav>
+
+  <!------------------------------------------------ Navbar End ----------------------------------------------->
+
+ 
+
+  <!-------------------------------------------------- Banner start --------------------------------------------->
+
+  <div class="container-fluid">
+    <div class="row py-3">
+      <div class="col">
+        <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active">1</li>
+            <li data-bs-target="#mycarousel" data-bs-slide-to="1">2</li>
+            <li data-bs-target="#mycarousel" data-bs-slide-to="2">3</li>
+            <li data-bs-target="#mycarousel" data-bs-slide-to="3">4</li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/banner_1.jpg" alt="" class="d-block w-100 banner-img">
+              
+            </div>
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="images/banner_cultural.jpg" alt="" class="d-block w-100 banner-img">
+              
+            </div>
+            <div class="carousel-item " data-bs-interval="2000">
+              <img src="images/banner_02.jpg" alt="" class="d-block w-100 banner-img">
+              
+            </div>
+            <div class="carousel-item " data-bs-interval="2000">
+              <img src="images/s-image-62.jpg" alt="" class="d-block w-100 banner-img">
+              
+            </div>
+
+            <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--------------------------------------------- Banner End -------------------------------------------------->
+
+  <!---------------------------------------------- university profile start --------------------------------------------->
+
+  <div class="container-fluid text-center University-profile" id="u1">
+    <div class="row py-5 px-5" id="university-profile01">
+      <h2 id="">UNIVERSITY PROFILE</h2>
+      <div class="col">
+        <p id="para">The Konark University Act was passed by the Odisha Legislature on 10th December, 1966 to fulfill
+          long cherished dream of the people of  Odisha for establishment of a University. The University started
+          functioning from 1st January, 1967 with Prof.Parsura Mishra as the first Vice-Chancellor. The University was
+          inaugurated on 4th January, 1967 by Hon’ble Chancellor B.N.Khosla. The University started functioning in 1967
+          in a rented private building   from
+          1968 - 72. In the year 1973 the University was shifted to the present campus named Jyoti Vihar at <span
+            id="read-more">Read More...</span> </p>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!------------------------------------------------- university profile end ------------------------------------------------------>
+
+
+  <!-------------------- Administrations block start ---------------->
+
+  <div class="container-fluid text-center Administations">
+
+    <div class="container  ADMINISTATIONS_1">
+      <div class="row  px-4 py-5 ">
+
+        <h2 class=" mb-5">ADMINISTATIONS</h2>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-2  box1  " id="box1"><a href="about.html"><img src="images/Pratiba_Ray_2010.jpeg" class="img-thumbnail" alt=""></a>
+          
+         <a href="about.html"> <h6 class="text1">Prof.Sabita Acharya </h6></a>
+         <a href="about.html"> <h6 class="text2">Hon'ble Chancellor</h6></a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-2 box1 " id="box2"><a href="about.html"><img src="images/teacher_02.webp" class="img-thumbnail" alt=""></a>
+         <a href="about.html"> <h6 class="text1">Dr.Navaneeta Rath </h6></a>
+         <a href="about.html"> <h6 class="text2">Vice-Chancellor</h6></a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-2 box1 " id="box3"><a href="about.html"><img src="images/teacher_3.avif" class="img-thumbnail" alt=""></a>
+         <a href="about.html"> <h6 class="text1">Dr.Kahnu Charan Dhir,OAS </h6></a>
+         <a href="about.html"> <h6 class="text2">Chairperson,P.G.Council</h6></a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-2 box1  " id="box4"><a href="about.html"><img src="images/teacher_4.jpeg" class="img-thumbnail" alt=""></a>
+         <a href="about.html"> <h6 class="text1">Shri Gautama Pradhan,O.F.S(S.G.) </h6></a>
+         <a href="about.html"> <h6 class="text2">Comptroller of Finance</h6></a>
+        </div>
+       
+
+      </div>
+    </div>
+    <br><br>
+
+    
+    
+    <!-- Academic block -->
+    <div class="container  academic">
+      <div class="row py-4 px-5">
+        <h2>ACADEMIC UNITS</h2>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 box2" id="_box1">
+          <i class="fa-solid fa-building-columns icon1" style="color: #f7f7f8;"></i>
+          
+          <h4 class="icon-text mt-4 py-2">Departments</h4>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 box2" id="_box2"><i class="fa-solid fa-star-of-david icon1" style="color: #fafafa;"></i>
+          <h4 class="icon-text mt-4 py-2">Centers</h4>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 box2" id="_box3"><i class="fa-solid fa-school icon1" style="color: #f9fafa;"></i>
+          <h4 class="icon-text mt-4 py-2">Schools</h4>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 box2" id="_box4"><i class="fa-solid fa-atom icon1" style="color: #eff0f0;"></i>
+          <h4 class="icon-text mt-4 py-2">Centres of Excellence</h4>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+  <!---------------------------- Administations block end ----------------->
+
+
+  
+   
+    
+
+  <!-------------------------------------- tab start ------------------------------------------->
+  <div class="container py-5  tabs ">
+    <h2 class="py-3  text-center"></h2>
+    <div class="row py-5 justify-content-center">
+      <div class="col-12 col-sm-4 col-md-4 col-lg-3" id="mytab01">
+        <ul class="nav nav-pills flex-column " id="mytab">
+          <li class="nav-item ">
+            <a class="nav-link active " data-bs-toggle="pill" href="#notice">NOTICE & CIRCULARS</a>
+
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  " data-bs-toggle="pill" href="#tender">TENDERS</a>
+
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " data-bs-toggle="pill" href="#mission">MISSION</a>
+
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " data-bs-toggle="pill" href="#vison">VISON</a>
+
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-content col-12 col-sm-8 col-md-8 col-lg-9" id="mytabcontent">
+        <div id="notice" class="container tab-pane fade show active"><br>
+
+          <ul>
+            <li><i class="fa-solid fa-calendar-days" style="color: #0d0d0d;"></i> <b>14 Oct 2023</b></li>
+            <li>Conduct of Inter College Volleyball (Men) Tournament 2023-24 of Konark University New<img
+                src="images/new-2.gif" alt="" height="30px"></li>
+            <li><i class="fa-solid fa-calendar-days" style="color: #0d0d0d;"></i><b>11 Oct 2023</b> </li>
+            <li>Merit List for the Admission in M. Sc. Chemistry and M. Sc. Applied Chemistry 2023 New<img
+                src="images/new-2.gif" alt="" height="30px"></li>
+            <li><i class="fa-solid fa-calendar-days" style="color: #0d0d0d;"></i> <b>11 Oct 2023</b></li>
+            <li> Waiting merit list for Zoology and Microbiology in Life Sciences New<img src="images/new-2.gif" alt=""
+                height="30px"></li>
+            <li><i class="fa-solid fa-calendar-days" style="color: #0d0d0d;"></i><b>11 Oct 2023</b> </li>
+            <li> Merit List of Spot Selection of Department of History New<img src="images/new-2.gif" alt=""
+                height="30px"></li>
+            <li><i class="fa-solid fa-calendar-days" style="color: #0d0d0d;"></i><b>10 Oct 2023</b></li>
+            <li>Selection list of candidate for spot admission 2023 of MBA Department New<img src="images/new-2.gif"
+                alt="" height="30px"></li>
+            <li><i class="fa-solid fa-calendar-days" style="color: #0d0d0d;"></i><b>10 Oct 2023</b></li>
+            <li>Students Merit List of P.G. Department of FSTN, SU<img src="images/new-2.gif" alt="" height="30px"></li> 
+          </ul>
+        </div>
+
+        <div id="tender" class="container tab-pane fade"><br>
+          <ul>
+            <li><i class="fa-solid fa-calendar-days" style="color: #0d0d0d;"></i><b> 07 Oct 2023</b></li>
+            <li>Tender Call Notice for Electrical repairing Work at Gymnasium, SUNIV New<img src="images/new-2.gif"
+                alt="" height="30px"></li>
+            <li><i class="fa-solid fa-calendar-days" style="color: #0d0d0d;"></i><b>07 Oct 2023</b></li>
+            <li>Tender Call Notice for Supply and Fixing of Cable from Main Pole to Security Room , SUNIV New<img
+                src="images/new-2.gif" alt="" height="30px"></li>
+            <li><i class="fa-solid fa-calendar-days" style="color: #0d0d0d;"></i><b>08 Sep 2023</b> </li>
+            <li>Short Quotation Call notice for sale of serviceable unused materials of P.G Department of Library and
+              Information Science<img src="images/new-2.gif" alt="" height="30px"></li>
+            <li><i class="fa-solid fa-calendar-days" style="color: #0d0d0d;"></i><b>02 Sep 2023</b></li>
+             <li> Short quotation call notice for the sale of old and unseviceable materials<img src="images/new-2.gif"
+                alt="" height="30px"></li>
+            <li><i class="fa-solid fa-calendar-days" style="color: #0d0d0d;"></i><b>21 Jul 2023</b></li>
+            <li>Tender Call Notice for Maintenance, Housekeeping and in catering Service of University Guest House<img
+                src="images/new-2.gif" alt="" height="30px"></li>
+            <li><i class="fa-solid fa-calendar-days" style="color: #0d0d0d;"></i> <b>14 Jul 2023</b></li>
+            <li>Short Tender Call Notice for EI to S/F of Subpanel and AC wiring at MBA Department, Konark University
+            <img src="images/new-2.gif" alt="" height="30px"></li> 
+          </ul>
+        </div>
+        <div id="mission" class="container tab-pane fade "><br>
+          <ul>
+            <li>Konark University shall strive to educate society fort generations by providing transformative education with deep disciplinary knowledge and concern for environment.</li>
+            <li> To develop problem solving, leadership and communications skill in student participants to serve the organization of today and tomorrow.</li>
+            <li>To aim for the holistic development of the students by giving them value based ethical education with concern for society.</li>
+            <li> To foster entrepreneurial skills and mindset in the students by giving lifelong learning to make them resposible citizens.</li>
+          </ul>
+          
+        </div>
+        <div id="vison" class="container tab-pane fade "><br>
+          <ul>
+            <li> Konark University is commited to creating and sustaining a transformative educational environment for its students, staff and faculties in the fields of Liberal Arts, Sciences and Professional Studies so that they become globally competitive through competency in respective domain knoeledge, research, innovation and entrepreneurship skills with heightened sense of meaningful community engagements and personal developments</li>
+          </ul>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!----------------------------------------------------- tab end ----------------------------------------------->
+
+  <!-----------------------------------------------gallery section start  ---------------------------------------->
+
+  <div class="container gallery my-5 pb-5">
+    <div class="row text-center">
+      <h2 class="text-center mb-5 my-5">GALLERY</h2>
+      <div class="col-12 col-sm-4 col-md-4 col-lg-2 box5 " id="g1"><img src="images/gallery12.jpg" alt="" class="image img-thumbnail box_3 " >
+        
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-4 col-lg-2 box5" id="g2"><img src="images/gallery_01.webp" alt="" class="image img-thumbnail box_3">
+        
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-2 box5" id="g3"><img src="images/gallery_02.jpg" alt="" class="image img-thumbnail box_3">
+        
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-2 box5" id="g4"><img src="images/dance_01.jpg" alt="" class="image img-thumbnail box_3">
+        
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-2 box5" id="g5"><img src="images/gallery_04.jpg" alt="" class="image img-thumbnail box_3">
+        
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-2 box5" id="g6"><img src="images/gallery_05.jpg" alt="" class="image img-thumbnail box_3">
+        
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-2 box5" id="g7"><img src="images/gallery_06.webp" alt="" class="image img-thumbnail box_3">
+        
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-2 box5" id="g8"><img src="images/gallery_07.jpg" alt="" class="image img-thumbnail box_3">
+        
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-2 box5" id="g9"><img src="images/gallery_08.webp" alt="" class="image img-thumbnail box_3">
+        
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-2 box5" id="g10"><img src="images/dance_03.jpg" alt="" class="image img-thumbnail box_3">
+        
+      </div>
+       <div class="col-12 col-sm-12 col-md-4 col-lg-2 box5" id="g11"><img src="images/dance_02.jpg" alt="" class="image img-thumbnail box_3">
+        
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-2 box5" id="g12"><img src="images/gallery_11.jpg" alt="" class="image img-thumbnail box_3">
+        
+      </div> 
+    </div>
+  </div>
+
+  <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+
+
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa-brands fa-facebook-f" style="color: #fcfcfd;"></i></a>
+    <a href="#" class="twitter"><i class="fa-brands fa-twitter" style="color: #fcfcfd;"></i></a>
+    <a href="#" class="google"><i class="fa-brands fa-google" style="color: #ffffff;"></i></a>
+    <a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in" style="color: #fbfcfe;"></i></a>
+    <a href="#" class="youtube"><i class="fa-brands fa-youtube" style="color: #fcfcfd;"></i></a>
+  </div>
+  <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+  <!---------------------------------------------- gallery section end ------------------------------------------->
+
+
+  <!----------------------------------------------- At a glance start ----------------------------------------------------->
+  <div class="container text-center my-5   glance">
+
+    <div class="row ">
+
+
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 glance_01" id="gl1"><i class="fa-solid fa-user-pen icon2" style="color: #f4f6fb;"></i>
+        <h1 class="text3">103,000</h1>
+        <h5 class="text3">Undergraduate Students</h5>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 glance_01" id="gl2"><i class="fa-solid fa-user-graduate icon2" style="color: #f4f5f6;"></i>
+        <h1 class="text3">47,000</h1>
+        <h5 class="text3">Postgraduate Students</h5>
+      </div>
+      <!-- <div class="col-12 col-sm-6 col-md-6 col-lg-3 glance_01"><i class="fa-solid fa-person-chalkboard icon2" style="color: #ffffff;"></i>
+        <h1 class="text3">117</h1>
+        <h5 class="text3">Faculty</h5>
+      </div> -->
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 glance_01" id="gl3"><i class="fa-solid fa-people-group icon2" style="color: #f0f2f4;"></i>
+        <h1 class="text3">343</h1>
+        <h5 class="text3">Non Teaching Staff</h5>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 glance_01" id="gl4"><i class="fa-solid fa-graduation-cap icon2" style="color: #f9fafa;"></i>
+        <h1 class="text3">199</h1>
+        <h5 class="text3">Doctoral students</h5>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--------------------------------------------------- At a glance end ------------------------------------------------------>
+
+
+  <!------------------------------------------------- footer start -------------------------------------------------------->
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 box3" id="f1">
+        
+        <ul>
+         <a href="index.html"><li id="hd">Important Links</li></a> 
+         <a href="https://www.education.gov.in/"><li>Ministry of HRD, GOI</li></a> 
+         <a href="https://dhe.odisha.gov.in/"><li>DHE, Govt. of Odisha</li></a> 
+         <a href="https://mocollege.in/"><li>Mo College</li></a>  
+         <a href="https://oshec.odisha.gov."><li>OSHEC</li></a> 
+         <a href="https://www.ugc.gov.in/"><li> UGC</li></a> 
+         <a href="http://naac.gov.in/index.php/en/"><li> NAAC</li></a> 
+         
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 box3 " id="f2">
+        <ul>
+         <a href="index.html"><li id="hd" >Quick Links</li></a> 
+         <a href="departments.html"><li>Departments</li></a> 
+         <a href="about.html"><li>About</li></a> 
+         <a href="blog.html"><li>Blog</li></a> 
+         <a href="http://rusa.nic.in/"><li>RUSA</li></a> 
+         <a href="https://egyanagar.osou.ac.in/"><li>ODISHA STATE OPEN UNIVERSITY</li></a> 
+          <a href="https://rti.gov.in/"><li>Right to Information</li></a>
+
+        </ul>
+
+      </div>
+      <div class="col-12  col-sm-6 col-md-6 col-lg-3 box3" id="f3">
+        <ul>
+         <a href="index.html"><li id="hd">Explore</li></a> 
+         <a href="https://swayam.gov.in/"><li>SWAYAM</li></a> 
+         <a href="https://video.alexanderstreet.com/"><li>Alexander Street E-Videos</li></a> 
+         <a href="https://www.niepa.ac.in/"><li>NIEPA</li></a> 
+         <a href="https://aishe.gov.in/aishe/home"><li>AISHE</li></a> 
+         <a href="https://ndl.iitkgp.ac.in/"><li>National Digital Library</li></a> 
+         <a href="contact.html"><li>Contact Us</li></a> 
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 box3 text-center" id="f4">
+        <ul>
+          
+         <a href="index.html"> <li><img src="images/konark-wheel_02.webp" alt="" class="logo1"></li></a>
+         <a href="index.html"> <li id="ad">Konark University,Odisha</li></a>
+         <a href="index.html"> <li id="ad1">Konark,Bhubaneswar,odisha</li></a>
+          <a href="contact.html"><li id="ad1"><i class="fa-solid fa-phone" style="color: #fcfcfd;"></i> 011-2659-7135 </li></a>
+         <a href="contact.html"> <li id="ad1"><i class="fa-solid fa-inbox" style="color: #fafafa;"></i> info@ku.ac.in</li></a>
+         <a href="contact.html"> <li id="ad1"><i class="fa-solid fa-earth-americas" style="color: #f7f7f8;"></i> www.ku.ac.in</li></a>
+        </ul>
+        </div>
+    </div>
+  </div>
+
+  <!------------------------------------------------- footer end ---------------------------------------------------------->
+
+  <script>
+    $(document).ready(function()
+ {
+     $(window).scroll(function()
+     {
+         var positiontop=$(document).scrollTop();
+         console.log(positiontop);
+
+         if((positiontop>200)&&(positiontop<600)){
+           
+             $('#university-profile01').addClass('animate__animated animate__zoomIn');
+             
+           
+             
+         }
+     });
+ })
+ </script>
+<!-- hhhhhhhhhhhhhhhhhhhhhhhhhhhhhh -->
+ <script>
+   $(document).ready(function()
+ {
+     $(window).scroll(function()
+     {
+         var positiontop=$(document).scrollTop();
+         console.log(positiontop);
+
+         if((positiontop>700)&&(positiontop<800)){
+           
+             $('#box1').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#box2').addClass('animate__animated animate__zoomIn');
+             $('#box3').addClass('animate__animated animate__zoomIn');
+             $('#box4').addClass('animate__animated animate__lightSpeedInRight');
+             
+           
+             
+         }
+     });
+ })
+ </script>
+ <!-- 1111111111111111111111111111111111 -->
+ 
+ <!--  -->
+ <script>
+  $(document).ready(function()
+ {
+     $(window).scroll(function()
+     {
+         var positiontop=$(document).scrollTop();
+         console.log(positiontop);
+
+         if((positiontop>1000)&&(positiontop<1200)){
+           
+             $('#_box1').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#_box2').addClass('animate__animated animate__zoomIn');
+             $('#_box3').addClass('animate__animated animate__zoomIn');
+             $('#_box4').addClass('animate__animated animate__lightSpeedInRight');
+             
+           
+         }
+     });
+ })
+ </script>
+
+ <script>
+  $(document).ready(function()
+ {
+     $(window).scroll(function()
+     {
+         var positiontop=$(document).scrollTop();
+         console.log(positiontop);
+
+         if((positiontop>1500)&&(positiontop<1600)){
+           
+             $('#mytab01').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#mytabcontent').addClass('animate__animated animate__lightSpeedInRight');
+             
+           
+         }
+     });
+ })
+ </script>
+ <!-- jjjjjjjjjjjjjjjjjjjjj -->
+ <script>
+  $(document).ready(function()
+ {
+     $(window).scroll(function()
+     {
+         var positiontop=$(document).scrollTop();
+         console.log(positiontop);
+
+         if((positiontop>2100)&&(positiontop<2200)){
+           
+             
+             $('#g1').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#g2').addClass('animate__animated animate__lightSpeedInRight');
+             $('#g3').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#g4').addClass('animate__animated animate__lightSpeedInRight');
+             $('#g5').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#g6').addClass('animate__animated animate__lightSpeedInRight');
+             $('#g7').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#g8').addClass('animate__animated animate__lightSpeedInRight');
+             $('#g9').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#g10').addClass('animate__animated animate__lightSpeedInRight');
+             $('#g11').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#g12').addClass('animate__animated animate__lightSpeedInRight');  
+             
+             
+           
+         }
+     });
+ })
+ </script>
+ <!-- hhhhhhhhhhhhhhhhhhhhhhhhhhh -->
+ <script>
+         $(document).ready(function()
+ {
+     $(window).scroll(function()
+     {
+         var positiontop=$(document).scrollTop();
+         console.log(positiontop);
+
+         if((positiontop>2500)&&(positiontop<2600)){
+           
+             
+             $('#gl1').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#gl2').addClass('animate__animated animate__lightSpeedInRight');
+             $('#gl3').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#gl4').addClass('animate__animated animate__lightSpeedInRight');
+             
+             
+             
+           
+         }
+     });
+ })     
+ </script>
+ <!-- jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj -->
+  <script>
+         $(document).ready(function()
+ {
+     $(window).scroll(function()
+     {
+         var positiontop=$(document).scrollTop();
+         console.log(positiontop);
+
+         if((positiontop>3000)&&(positiontop<3100)){
+           
+             
+             $('#f1').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#f2').addClass('animate__animated animate__lightSpeedInRight');
+             $('#f3').addClass('animate__animated animate__lightSpeedInLeft');
+             $('#f4').addClass('animate__animated animate__lightSpeedInRight');
+             
+             
+             
+           
+         }
+     });
+ })     
+ </script>
+
+
+
+
+</body>
+
+</html>

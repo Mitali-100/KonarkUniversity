@@ -1,0 +1,78 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+/************************************** navbar start ********************************************/
+.navbar{
+    background-color: #3B5998;
+}
+.nav-link{
+    font-size: 18px;
+    margin-right: 15px;
+}
+.navbar-toggler-icon{
+    color: azure;
+}
+.logo{
+    height: 50px;
+}
+.logo-name{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+/**************************************** navbar end *********************************************/
+/********************************** departments section start ************************************/
+.box4{
+    padding: 20px;
+    /* border: 1px solid black; */
+
+/* margin: 20px; */
+
+}
+.box4:hover{
+    border: 4px solid black;
+}
+.box4 img{
+    height: 80px;
+    margin: 5px;
+}
+/************************************ departments section end *************************************/
+/******************************************************** footer start *****************************************************/
+.footer{
+    background-color:#3B5998;
+}
+
+.box3 ul{
+    margin-top: 30px;
+}
+.box3 li{
+    color: white;
+    margin: 10px;
+    
+    font-size: 18px;
+    list-style-type: none;
+}
+#ad{
+    font-size: 20px;
+}
+#ad1{
+    font-size: 14px;
+}
+#ad2{
+    color: grey;
+    font-size: 15px;
+}
+#hd{
+    font-size: 26px;
+    list-style-type: none;
+    border-bottom:2px solid red ;
+}
+
+.logo1{
+    height:80px;
+}
+
+/******************************************************* footer end ******************************************************/
